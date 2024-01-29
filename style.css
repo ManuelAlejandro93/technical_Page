@@ -1,0 +1,55 @@
+@media (min-width: 15cm) {
+  #navbar {
+    text-align: center;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+header {
+  font-weight: 11px;
+  font-size: 30px;
+}
+a {
+  text-decoration: none;
+  color: gray;
+  font-size: 17px;
+}
+p {
+  font-size: 15px;
+  margin-left: 1em;
+}
+code {
+  background-color: #eeeeee;
+  position: relative;
+  left: 30px;
+  padding: 6px;
+}
+
+#navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  background-color: none;
+}
+#JSDocumentationheader {
+  z-index: 3;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 100%;
+  align-items: baseline;
+}
+
+.navgrid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(14, 45px);
+}
